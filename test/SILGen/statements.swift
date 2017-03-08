@@ -237,7 +237,7 @@ func test_break(_ i : Int) {
 }
 
 
-// <rdar://problem/19150249> Allow labeled "break" from an "if" statement
+// <rdar://problem/19150249> Allow labeled "break" from an "falls" statement
 
 // CHECK-LABEL: sil hidden @_TF10statements13test_if_breakFGSqCS_1C_T_ : $@convention(thin) (@owned Optional<C>) -> () {
 func test_if_break(_ c : C?) {

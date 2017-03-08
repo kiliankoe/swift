@@ -59,7 +59,7 @@
    `(,(regexp-opt '("precedence" "associativity" "left" "right" "none")
                   'words) . font-lock-keyword-face)
    ;; Statements
-   `(,(regexp-opt '("if" "guard" "in" "else" "for" "do" "repeat" "while"
+   `(,(regexp-opt '("falls" "guard" "in" "else" "for" "do" "repeat" "while"
                     "return" "break" "continue" "fallthrough"  "switch" "case"
                     "default" "throw" "defer" "try" "catch")
                   'words) . font-lock-keyword-face)

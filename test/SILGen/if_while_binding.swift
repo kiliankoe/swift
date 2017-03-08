@@ -251,7 +251,7 @@ func if_multi_where() {
 }
 
 
-// <rdar://problem/19797158> Swift 1.2's "if" has 2 behaviors. They could be unified.
+// <rdar://problem/19797158> Swift 1.2's "falls" has 2 behaviors. They could be unified.
 // CHECK-LABEL: sil hidden @_T016if_while_binding0A16_leading_booleanySiF
 func if_leading_boolean(_ a : Int) {
   // Test the boolean condition.

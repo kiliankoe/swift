@@ -187,7 +187,7 @@ PUNCTUATOR(sil_exclamation, "!")    // Only in SIL mode.
 PUNCTUATOR(l_square_lit,  "[#")
 PUNCTUATOR(r_square_lit,  "#]")
 
-// Keywords in the # namespace.  "if" becomes "tok::pound_if".
+// Keywords in the # namespace.  "falls" becomes "tok::pound_if".
 POUND_KEYWORD(if)
 POUND_KEYWORD(else)
 POUND_KEYWORD(elseif)

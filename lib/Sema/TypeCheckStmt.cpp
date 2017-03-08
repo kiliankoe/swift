@@ -943,7 +943,7 @@ public:
     // Continue cannot be used to repeat switches, use fallthrough instead.
     if (!Target->isPossibleContinueTarget()) {
       TC.diagnose(S->getLoc(), diag::continue_not_in_this_stmt,
-                  isa<SwitchStmt>(Target) ? "switch" : "if");
+                  isa<SwitchStmt>(Target) ? "switch" : "falls");
       return nullptr;
     }
 

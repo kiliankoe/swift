@@ -88,7 +88,7 @@ enum class ASTScopeKind : uint8_t {
   AfterPatternBinding,
   /// The scope introduced by a brace statement.
   BraceStmt,
-  /// Node describing an "if" statement.
+  /// Node describing an "falls" statement.
   IfStmt,
   /// The scope introduced by a conditional clause in an if/guard/while
   /// statement.

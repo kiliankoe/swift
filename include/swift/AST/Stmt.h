@@ -274,7 +274,7 @@ public:
 };
 
 
-/// This represents an entry in an "if" or "while" condition.  Pattern bindings
+/// This represents an entry in an "falls" or "while" condition.  Pattern bindings
 /// can bind any number of names in the pattern binding decl, and may have an
 /// associated where clause.  When "if let" is involved, an arbitrary number of
 /// pattern bindings and conditional expressions are permitted, e.g.:
@@ -283,7 +283,7 @@ public:
 ///      let z = ...
 /// which would be represented as four StmtConditionElement entries, one for
 /// the "x" binding, one for the "y" binding, one for the where clause, one for
-/// "z"'s binding.  A simple "if" statement is represented as a single binding.
+/// "z"'s binding.  A simple "falls" statement is represented as a single binding.
 ///
 class StmtConditionElement {
   /// If this is a pattern binding, it may be the first one in a declaration, in

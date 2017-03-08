@@ -1092,7 +1092,7 @@ static FuncDecl *completeLazyPropertyGetter(VarDecl *VD, VarDecl *Storage,
   auto *Return = new (Ctx) ReturnStmt(SourceLoc(), EarlyReturnVal,
                                       /*implicit*/true);
 
-  // Build the "if" around the early return.
+  // Build the "falls" around the early return.
   Tmp1DRE = new (Ctx) DeclRefExpr(Tmp1VD, DeclNameLoc(), /*Implicit*/true,
                                   AccessSemantics::DirectToStorage);
   
